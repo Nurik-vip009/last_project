@@ -1,0 +1,51 @@
+.header_wrapper {
+    display: flex;
+    padding: 39px 0 38px 0;
+    border: 0.5px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../image/bgc (1).png");
+}
+
+.wrapper {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link {
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    color: white;
+    margin: 0 80px 0 0;
+}
+
+.img_inst-header {
+    margin: 0 126px 0 0;
+}
+
+.header-logo {
+    margin: 0 120px 0 0;
+}
+
+.header-nav-link:hover {
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    color: #CDAA7D;
+    margin: 0 80px 0 0;
+    border: 1px solid #CDAA7D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 1s;
+    padding: 0 0 5px 0;
+}
